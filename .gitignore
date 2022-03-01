@@ -1,0 +1,12 @@
+*
+
+!docker
+!php
+!docker/nginx/*
+!docker/nginx/conf.d/default.nginx
+!docker/mysql
+!html
+!html/*
+!Dockerfile
+!.gitignore
+!*.yml
