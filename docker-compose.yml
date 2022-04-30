@@ -12,6 +12,7 @@ version: '3.0'
 services:
 
   nginx:
+    container_name: nginx
     image: nginx
     environment:
       - VIRTUAL_HOST=site.local
@@ -26,6 +27,7 @@ services:
       - "8080:80"
 
   php:
+    container_name: php
     build:
       context: ./docker/php
     volumes:
